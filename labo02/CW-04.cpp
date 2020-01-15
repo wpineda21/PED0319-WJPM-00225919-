@@ -18,7 +18,6 @@ int main(void){
     cout<<endl;
 
     printinfor(ad1);
-
 return 0;
 }
 

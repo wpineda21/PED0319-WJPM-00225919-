@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void printletters();
+void printletters(char* printarray , int size);
 
 int main (void){
     int size = 0;
@@ -20,7 +20,7 @@ int main (void){
 return 0;
 }
 
-void printletters(char* printarray, int size){
+void printletters(char* printarray , int size){
 for (int  i = 0; i < size; i++)
 {
       cout<< "letra" << printarray[i] <<endl;
