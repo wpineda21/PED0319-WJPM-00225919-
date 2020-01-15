@@ -86,16 +86,12 @@ return flag;
 }
 }
 
-bool compareArrays(ch
-    {ar* array2,int sizeArray){
-    for (int i = 0; i
-    {i++)
+bool compareArrays(char* array1 ,char* array2,int sizeArray){
+    for (int i = 0; i < sizeArray; i++)
     {
-    if (array1[i]!=ar
-    {
+    if (array1[i]!=array2[i])
     {
         return false;
-    {
     }
     
     return true;
