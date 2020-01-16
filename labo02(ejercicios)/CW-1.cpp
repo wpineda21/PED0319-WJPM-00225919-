@@ -7,11 +7,12 @@ struct PeopleData{
 string Personname,gender;
 int Salary,Age,WorkingYears;
 }cd1,cd2,cd3,cd4,cd5;
+typedef struct PeopleData Data2;
 
-string sexo;
+char sexo;
 
 void Data();
-void CompareGender();
+int CompareGender(char sexo);
 PeopleData ad1;
 int main(){
 
@@ -19,9 +20,7 @@ int main(){
     
 return 0;
 }
-
 void Data(){
-
 
     cout<<"Nombre de Persona"; cin>>cd1.Personname;
     cout<<"Ingres su Sexo";    cin>>cd2.gender;
@@ -30,16 +29,20 @@ void Data(){
     cout<<"Ano laborales " ;  cin>> cd5.WorkingYears;
     cout<<endl;
 
-sexo = cd2.gender;
-CompareGender();
-
+//sexo = cd2.gender;
+//CompareGender();
 }
-
-void CompareGender(){
-
-string Gender[12]={"mujer"};       
-
+/*int CompareGender(char sexo){
+char Gender[12]={"mujer"};       
  if((strcmp(Gender,sexo)==0){ 
-
 cout<<"es mujer"<<endl;
+}
+return 0;
+}*/
+
+
+void retirement(){
+
+
+    
 }
