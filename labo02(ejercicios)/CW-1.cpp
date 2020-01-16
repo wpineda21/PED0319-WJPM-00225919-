@@ -1,48 +1,83 @@
 #include <iostream>
 #include <string>
-#include <string.h>
 using namespace std;
 
-struct PeopleData{
-string Personname,gender;
-int Salary,Age,WorkingYears;
-}cd1,cd2,cd3,cd4,cd5;
-typedef struct PeopleData Data2;
+struct empleado{
+    int edad,salario,anoslaborales;
+    string nombre;
+};
+typedef struct empleado Empleado;
 
-char sexo;
+void Hombre();
+void Mujer();
 
-void Data();
-int CompareGender(char sexo);
-PeopleData ad1;
 int main(){
+ int opc;
 
-    Data();
-    
-return 0;
+cout<<"bienvenido al calculo de retiro de edad"<<endl;
+cout<<"seleccione un genero"<<endl;
+cout<<"1)Hombre..........................."<<endl;
+cout<<"2)Mujer............................"<<endl;
+cin>>opc;
+
+switch (opc){
+case 1: cout<<"A continuacion rellene el siguiente formulario"<<endl;
+        Hombre();
+    break;
+case 2: cout<<"A continuacion rellene el siguiente formulario"<<endl;
+        Mujer();
+    break;
+
+default:cout<<"lo siento esta opcion no existe"<<endl;
+    break;
 }
-void Data(){
-
-    cout<<"Nombre de Persona"; cin>>cd1.Personname;
-    cout<<"Ingres su Sexo";    cin>>cd2.gender;
-    cout<<" Salario ";         cin>>cd3.Salary;
-    cout<<" Edad " ;           cin>> cd4.Age;
-    cout<<"Ano laborales " ;  cin>> cd5.WorkingYears;
-    cout<<endl;
-
-//sexo = cd2.gender;
-//CompareGender();
+return 0; 
 }
-/*int CompareGender(char sexo){
-char Gender[12]={"mujer"};       
- if((strcmp(Gender,sexo)==0){ 
-cout<<"es mujer"<<endl;
+
+void Hombre(){
+int cantidadEmpleados = 1;
+    Empleado cartera[cantidadEmpleados];
+    for (int i = 0; i < cantidadEmpleados; i++) {
+        cin.ignore();
+        cout << "Nombre de empleado #" << (i+1) << ": ";
+        getline(cin, cartera[i].nombre);
+        cout << "Salario de empleado:"  << (i+1) << ": ";
+        cin >> cartera[i].salario;
+        cout << "anos laborados:" << (i+1) << ": ";
+        cin >> cartera[i].anoslaborales;
+        cout << "Edad de empleado: #" << (i+1) << ": ";
+        cin >> cartera[i].edad;
+        cin.ignore();
+    }   
+    for (int i = 0; i < cantidadEmpleados; i++){
+        if(cartera[i].edad > 60 && cartera[i].anoslaborales > 25){
+        cout << cartera[i].nombre << " esta listo para jubilar" << endl;
+         }else{
+        cout<<"el empleado no puede jubilarse todavia"<<endl;
+    }
+    }
 }
-return 0;
-}*/
+void Mujer(){
+int cantidadEmpleados = 1;
+    Empleado cartera[cantidadEmpleados];
+    for (int i = 0; i < cantidadEmpleados; i++) {
+         cin.ignore();
+        cout << "Nombre de empleada #" << (i+1) << ": ";
+        getline(cin, cartera[i].nombre);
+        cout << "Salario de empleada:"  << (i+1) << ": ";
+        cin >> cartera[i].salario;
+        cout << "anos laborados:" << (i+1) << ": ";
+        cin >> cartera[i].anoslaborales;
+        cout << "Edad de empleado: #" << (i+1) << ": ";
+        cin >> cartera[i].edad;
+        cin.ignore();
+    }   
+    for (int i = 0; i < cantidadEmpleados; i++){
+        if(cartera[i].edad > 55 && cartera[i].anoslaborales > 25){
+        cout << cartera[i].nombre << " esta listo para jubilar" << endl;
+    }else{
 
-
-void retirement(){
-
-
-    
+        cout<<"la empleada no puede jubilarse todavia"<<endl;
+    }
+    }
 }
