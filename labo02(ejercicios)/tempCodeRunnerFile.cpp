@@ -1,3 +1,1 @@
-cout<<"  "<< saltotal<<endl;
-cout<<"  "<< x<<endl;
-cout<<"  "<< dif<<endl;
+mostrandoarreglo(saltotal);
