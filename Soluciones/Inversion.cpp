@@ -3,8 +3,6 @@
 using namespace std;
 
 
-
-
 void invertirarreglos(int* A, int*B, int size);
 
 int main(){
@@ -17,8 +15,6 @@ if(size<2){
     cout<<"ERROR"<<endl;
 return 0;
 }
-
-
 int *A,*B;
 
 A=new int[size]; B=new int[size];
@@ -35,16 +31,13 @@ for (int i = 0; i < size; i++)
 {
     cout<<"Arreglo A "<< A[i]<<endl;
 }
-
 for (int i = 0; i < size; i++)
 {
     cout<<"Arreglo B  "<< B[i]<<endl;
 }
 
-
 return 0;
 }
-
 
 void invertirarreglos(int* A, int*B, int size){
     int aux=0;
