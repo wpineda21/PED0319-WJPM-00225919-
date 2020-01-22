@@ -2,27 +2,26 @@
 
 ## Walter Rafael Morales Henriquez
 
-## Laboratorio 02
+## Laboratorio 04
 
 ### Observaciones al Instructor 
 
 * Obs 1
--Excelente forma de explicar los temas y de abordar preguntas
+-Excelente forma de explicar los temas 
 
 * Obs 2
 -Tratar de Ser mas Paciente Para pasar las Diapositivas o para Quitar los Ejercicios de la pantalla
 
 * Obs 3
--Tratar de ser un poco mas Comprensivo en cuanto al nivel de ciertos temas que los alumnos manejan
+-Tratar de ser un poco mas Comprensivo en cuanto al nivel de ciertos(recursividad,estructuras y pilas) temas que los alumnos manejan
 
 ## Dificultades en Ejercicios de tarea
 
 * Dif 1
--Sobre todo con las matricez , que no se manejar al 100 su manipulacion
+-tuve problemas con la recursividad y los llamados ala funcion
 
 * Dif 2
--tengo problemas para sacar la informacion de los struct y usarlos en mi programa normal
+-Problemas para saber cuando se esta aplicando recursividad sin la sintaxis original
 
 * Dif 3
--No conocer muy bien acerca de los parametros de las funciones me dificulto el comprender el tema de recursividad
-si podria abordar eso seria excelente.
+-me confundi un poco con los return que eran necesarios hacer muchas veces.
