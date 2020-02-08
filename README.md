@@ -2,26 +2,29 @@
 
 ## Walter Rafael Morales Henriquez
 
-## Laboratorio 04
+## Laboratorio 08
 
-### Observaciones al Instructor 
+### Observaciones  al  Instructor 
 
 * Obs 1
 -Excelente forma de explicar los temas 
 
 * Obs 2
--Tratar de Ser mas Paciente Para pasar las Diapositivas o para Quitar los Ejercicios de la pantalla
+-Tratar de no Quitar los Ejercicios de pantalla tan rapido
 
 * Obs 3
--Tratar de ser un poco mas Comprensivo en cuanto al nivel de ciertos(recursividad,estructuras y pilas) temas que los alumnos manejan
+-ser un poco mas Explicativo en el nombre de las variables
 
 ## Dificultades en Ejercicios de tarea
 
 * Dif 1
--tuve problemas con la recursividad y los llamados ala funcion
+-tuve problemas para insertar los datos en el arbol binario
 
 * Dif 2
--Problemas para saber cuando se esta aplicando recursividad sin la sintaxis original
+-no identifique correctamente donde insertar las hojas del arbol con informacion
 
 * Dif 3
--me confundi un poco con los return que eran necesarios hacer muchas veces.
+-no encontre una forma efectiva de imprimir los resultados
+
+* Dif 4
+-Durante la modificacion del archivo tuve el problema para insertar un string en el arbol
